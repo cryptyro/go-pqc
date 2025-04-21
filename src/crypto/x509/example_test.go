@@ -12,8 +12,6 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 	"fmt"
-
-	_ "github.com/cloudflare/circl/sign/eddilithium3"
 )
 
 func ExampleCertificate_Verify() {
